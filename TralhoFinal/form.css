@@ -1,0 +1,84 @@
+.form{
+    width: 500px;
+    height: 420px;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+
+    padding: 1rem;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1111111111;
+}
+
+.formularioMSG{
+    width: 345px;
+    height: 100px;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1111111111;
+}
+
+form *{
+    color: white;
+    font-family: 'nintendoUI';
+}
+
+form input{
+    color: black;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: none;
+}
+
+.campos{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.campos input{
+    width: 90%;
+}
+
+.button{
+    width: 90px;
+    color: black;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.formularioMSG{
+    color: white;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.formularioMSG input{
+    align-self: center;
+    margin-top: 10px;
+}

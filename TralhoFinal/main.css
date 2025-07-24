@@ -1,0 +1,104 @@
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@font-face{
+    font-family: 'zelda';
+    src: url(./Fontes/the-wild-breath-of-zelda/The\ Wild\ Breath\ of\ Zelda.otf) format('truetype');
+}
+
+@font-face{
+    font-family: 'nintendoUI';
+    src: url(./Fontes/Nintendo-Switch-UI/Nintendo_Switch_UI_Font.ttf) format('truetype');
+}
+
+section{
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 50px;
+    margin-top: 150px;
+}
+
+.section{
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    width: 60%;
+    height: auto;
+
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 50px;
+    color: white;
+    font-family: 'zelda';
+
+    margin: 20px;
+}
+
+.zeldaIMG{
+    width: 90%;
+    height: 50;
+
+    max-width: 36rem;
+    max-height: 22rem;
+
+    border-radius: 10px;
+}
+
+.paragrafo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.paragrafo p, li{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragrafo h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragrafo h3{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+
+    width: 30%;
+    height: auto;
+
+    border-radius: 40px;
+    right: 2%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+aside a{
+    font-family: 'zelda';
+    font-size: 18px;
+}
+
+aside a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
